@@ -1,0 +1,15 @@
+body {
+    padding: 50px;
+}
+
+a {
+    padding: 10px 20px;
+    color: #fff;
+    display: block;
+    background: Grey;
+    transition: background 0.8s ease 1s
+}
+
+a:hover {
+    background: Blue;
+}

@@ -1,0 +1,54 @@
+div {
+    position: relative;
+    margin-bottom: 20px;
+    background: #ccc;
+    z-index: 1;
+}
+
+.relative .child2 {
+    position: relative;
+    left: 100px;
+    top: -15px;
+    text-align: right;
+}
+
+.absolute {
+    height: 100px;
+}
+
+.absolute .child1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: Red;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+}
+
+.absolute .child2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: Yellow;
+    width: 40%;
+    height: 50px;
+    z-index: 2;
+}
+
+.absolute .child3 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: Blue;
+    width: 80%;
+    height: 80px;
+    z-index: 1;
+}
+
+.fixed .child1 {
+    position: fixed;
+    left: 50%;
+    top: 0;
+    z-index: 1;
+}

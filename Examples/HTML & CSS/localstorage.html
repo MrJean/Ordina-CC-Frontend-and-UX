@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <title>HTML &amp; CSS - Localstorage</title>
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body>
+        <h2>Geef uw naam op</h2>
+        <form>
+            <div>
+                <label for="name">Naam</label>
+                <input id="name" name="name" />
+                <input type="button" onclick="set_by_key('name')" value="Schrijf weg" />
+                <input type="button" onclick="get_by_key('name')" value="Vraag op" />
+            </div>
+            <div>
+                <label for="firstname">Voornaam</label>
+                <input id="firstname" name="firstname" />
+                <input type="button" onclick="set_by_key('firstname')" value="Schrijf weg" />
+                <input type="button" onclick="get_by_key('firstname')" value="Vraag op" />
+            </div>
+        </form>
+
+        <script src="js/localstorage.js"></script>
+    </body>
+</html>

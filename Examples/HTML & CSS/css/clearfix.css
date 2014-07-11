@@ -1,0 +1,32 @@
+/* new clearfix */
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+p {
+    margin: 0;
+    float: left;
+}
+
+.clearfix-not-present {
+    background: Red;
+}
+
+h2 {
+    float: left;
+}
+
+.clearfix-present {
+    background: Green;
+}
+
+.overflow-present {
+    overflow: hidden;
+}

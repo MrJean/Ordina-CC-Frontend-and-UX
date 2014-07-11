@@ -1,0 +1,30 @@
+.square {
+    width: 40px;
+    height: 40px;
+    background: Red;
+    -webkit-animation: orbit 2s linear infinite;
+    animation: orbit 2s linear infinite;
+}
+
+@-webkit-keyframes orbit {
+	from {
+		-webkit-transform:rotate(0deg);}
+	to {
+		-webkit-transform:rotate(360deg);
+	}
+}
+
+@keyframes orbit {
+	from {
+		transform:rotate(0deg); // Future chrome support
+		-webkit-transform:rotate(0deg);
+    }
+	to {
+		transform:rotate(360deg); // Future chrome support
+		-webkit-transform:rotate(360deg);
+	}
+}
+    
+body {
+    padding: 50px;
+}

@@ -1,0 +1,50 @@
+body {
+    padding: 10px;
+    color: #eee;
+    font-size: 12px;
+    background: #111;
+}
+
+/* styles for 1200px and up go here */
+@media only screen and (min-width: 960px) {
+    body {
+        padding: 15px;
+        font-size: 13px;
+        background: Yellow;
+        color: #111;
+    }
+}
+
+/* styles for 1200px and up go here */
+@media only screen and (min-width: 1200px) {
+    body {
+        padding: 25px;
+        font-size: 14px;
+        background: #fff;
+        color: #111;
+    }
+}
+
+/* styles for 1440px and up go here */
+@media only screen and (min-width: 1440px) {
+    body {
+        padding: 25px;
+        font-size: 16px;
+        background: #111;
+        color: #fff;
+    }
+}
+
+/* styles for 1920px and up go here */
+@media only screen and (min-width: 1920px) {
+    body {
+        padding: 25px;
+        font-size: 18px;
+        background: #f00;
+        color: #333;
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+ /* Retina-specific stuff here */
+}

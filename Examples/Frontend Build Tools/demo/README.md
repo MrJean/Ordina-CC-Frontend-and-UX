@@ -150,7 +150,7 @@ Run by using: grunt watch
 
 # Bower
 
-## Search for jQuery and install as dependency and add to bower.json
+Search for jQuery and install as dependency and add to bower.json
 
     bower search jquery
 

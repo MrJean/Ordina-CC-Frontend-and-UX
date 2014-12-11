@@ -1,6 +1,10 @@
 Ordina-CC-Frontend-and-UX
 =========================
 
+Clone the repo, go the this folder and run
+
+    npm install
+
 # Grunt
 
 ## package.json

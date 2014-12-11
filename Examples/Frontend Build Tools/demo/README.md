@@ -27,7 +27,7 @@ Parts taken from: http://gruntjs.com/sample-gruntfile
 The first part is the "wrapper" function, which encapsulates your Grunt configuration.
 
     module.exports = function(grunt) {
-    }
+    };
 
 ### Configuration object
 
@@ -54,6 +54,8 @@ This results in
 
 ### Config for concat
 
+Add in initConfig
+
     concat: {
         options: {
             separator: ';'
@@ -65,6 +67,8 @@ This results in
     },
 
 ### Config for uglify
+
+Add in initConfig
 
     uglify: {
         options: {
@@ -78,6 +82,8 @@ This results in
     },
         
 ### Config jshint
+
+Add in initConfig
 
     jshint: {
         files: ['Gruntfile.js', 'src/**/*.js', 'test/**/*.js'],
@@ -94,6 +100,7 @@ This results in
     
 ### Config watch
 
+Add in initConfig
 Run by using: grunt watch
 
     watch: {
@@ -108,6 +115,8 @@ Run by using: grunt watch
     },
 
 ### Connect config
+
+Add in initConfig
 
     connect: {
         options: {

@@ -128,16 +128,8 @@ Run by using: grunt watch
 
 ### Register tasks
 
-- grunt
-- grunt watch (defined earlier by including watch plugin)
-- grunt test
-- grunt server
-
-
     grunt.registerTask('test', ['jshint']);
-
     grunt.registerTask('default', ['jshint', 'concat', 'uglify']);
-
     grunt.registerTask('server', function (target) {
         if (target === '/') {
             return grunt.task.run(['default', 'connect:development:keepalive']);
@@ -148,3 +140,10 @@ Run by using: grunt watch
             'watch'
         ]);
     });
+    
+### Execute tasks
+
+- grunt
+- grunt watch (defined earlier by including watch plugin)
+- grunt test
+- grunt server

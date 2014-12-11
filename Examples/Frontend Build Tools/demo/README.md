@@ -133,10 +133,9 @@ Run by using: grunt watch
 - grunt test
 - grunt server
 
+
     grunt.registerTask('test', ['jshint']);
-
     grunt.registerTask('default', ['jshint', 'concat', 'uglify']);
-
     grunt.registerTask('server', function (target) {
         if (target === '/') {
             return grunt.task.run(['default', 'connect:development:keepalive']);
@@ -147,5 +146,3 @@ Run by using: grunt watch
             'watch'
         ]);
     });
-
-};

@@ -147,3 +147,11 @@ Run by using: grunt watch
 - grunt watch (defined earlier by including watch plugin)
 - grunt test
 - grunt server
+
+# Bower
+
+## Search for jQuery and install as dependency and add to bower.json
+
+    bower search jquery
+
+    bower install jquery --save

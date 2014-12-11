@@ -1,6 +1,12 @@
 Ordina-CC-Frontend-and-UX
 =========================
 
+Make sure you have Node Package Manager (NPM) installed
+
+Install Bower on global level
+
+    npm install -g bower
+
 Clone the repo, go the this folder and run
 
     npm install

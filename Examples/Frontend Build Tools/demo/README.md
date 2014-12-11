@@ -9,7 +9,7 @@ Clone the repo, go the this folder and run
 
 ## package.json
 
-Install the following modules using npm install <module_name> --save-dev
+Install the following modules using npm install MODULE_NAME --save-dev
 
 - grunt-contrib-uglify
 - grunt-contrib-concat
